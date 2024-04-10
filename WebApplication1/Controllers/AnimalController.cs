@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
         // GET: Animal/Details/5
         public ActionResult Details(int id)
         {
-            return View("Details", lista.[id]);
+            return View("Details", lista[id]);
         }
 
         // GET: Animal/Create
